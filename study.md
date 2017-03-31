@@ -50,7 +50,26 @@ A kitchen has many items.
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
 ```json
-<!-- your answer here -->
+{
+    "stove":[{
+            heatElement:"small",
+            heatElement:"medium",
+            heatElement:"large",
+            heatElement:"extra large",
+        }
+    ]
+}
+{
+    "herbRack":[{
+            spice:"chieve",
+            spice:"lemon grass",
+            spice:"mint",
+            spice:"cinnamon",
+            spice:"nutmeg",
+            spice:"vanilla",
+        }
+    ]
+}
 ```
 
 ## Modeling Data Using JSON: Part II
@@ -62,7 +81,14 @@ delicious apple.
 Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
 ```json
-<!-- your answer here -->
+{
+    "fruitBasket":[{
+            fruit:"Fuji",
+            fruit:"Gala",
+            fruit:"Gloden delicious",
+        }
+    ]
+}
 ```
 
 ## JSON Methods
@@ -70,7 +96,7 @@ Copy the JSON that you wrote for the previous question and include the new infor
 Can you write a method in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+JSON does not support methods
 ```
 
 ## JSON Comments
@@ -78,5 +104,5 @@ Can you write a method in the JSON that you wrote above?
 Can you write comments in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+JSON does not support comments
 ```
